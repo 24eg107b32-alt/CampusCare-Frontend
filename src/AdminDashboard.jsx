@@ -2,8 +2,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-const API_URL = 'http://localhost:9090/api/complaints'
-
+const API_URL = 'https://campuscare-backend-p55l.onrender.com/api/complaints';
 export default function AdminDashboard() {
   const [complaints, setComplaints] = useState([])
   const [loading, setLoading] = useState(true)

@@ -17,7 +17,7 @@ export default function AdminLogin() {
 
     try {
       const response = await fetch(
-        'http://localhost:9090/api/auth/admin-login',
+    'https://campuscare-backend-p55l.onrender.com/api/auth/admin-login',
         {
           method: 'POST',
           headers: {

@@ -2,8 +2,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const API_URL = 'http://localhost:9090/api/complaints'
-
+const API_URL = 'https://campuscare-backend-p55l.onrender.com/api/complaints';
 export default function SubmitComplaint() {
   const [form, setForm] = useState({
     category: '',
